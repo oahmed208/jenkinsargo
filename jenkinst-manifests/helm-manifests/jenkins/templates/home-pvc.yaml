@@ -3,7 +3,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: jenkins-argo
+  name: jenkins
   namespace: jenkins-argo
   labels:
     "app.kubernetes.io/name": 'jenkins'
