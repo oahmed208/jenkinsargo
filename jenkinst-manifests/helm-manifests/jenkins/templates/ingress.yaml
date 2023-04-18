@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: frodo.orl.eng.hitachivantara.com
+  - host: frodo-tst.orl.eng.hitachivantara.com
     http:
       paths:
       - backend:
